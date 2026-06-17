@@ -118,4 +118,70 @@ main{
 .skill{
   padding: 30px;
   box-shadow: 0px 6px 50px 0px black;
+  border-radius: 10px;
+}
+/* resume */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.experience{
+  border-bottom: 1px solid #D1D1D1;
+  padding: 10px;
+}
+.resume-column-title{
+  padding: 10px;
+}
+section>h3 {
+  text-align: center;
+  padding: 50px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.experience-description{
+  color: #757575;
+}
+.experience-sub-title{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600px;
+}
+.experience-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.resume-column-title{
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-center{
+  text-align: center;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin: 40px;
+}
+/* footer styles */
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+ footer input[type="text"], footer input[type=email], footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
 }
